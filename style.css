@@ -1,0 +1,155 @@
+body {
+    margin: 0 auto;
+}
+
+.header-container {
+    background-color: #FFF4E7;
+    height: 1000px;
+}
+
+.navbar {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.nav-right ul li {
+    float: left;
+    list-style-type: none;
+    padding: 15px;
+}
+
+.header-description {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 80px;
+}
+.btn {
+    border: none;
+    background-color: #FF900E;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.header-image {
+    width: 80%;
+    margin: auto;
+}
+
+.header-image img {
+    width: 100%;
+}
+
+.teamwork {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 50px;
+}
+
+.team-image {
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    padding: 50px;
+}
+
+.team-image img {
+    width: 100%;
+}
+.grid-item {
+    gap: 10px;
+}
+
+.quicklist {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* features */
+main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+ }
+.container{
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    
+}
+.Features{
+    width: 50%;
+   padding: 50px;
+}
+.images-container{
+    width: 50%;
+    height: 100%;
+}
+.images-container>img{
+    width: 100%;
+    
+    object-fit: cover;
+    object-position: left;
+   
+ 
+}
+/* media  */
+@media (max-width: 400px) {
+
+    .header-container {
+        background-color: #FFF4E7;
+        height: 610px;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .nav-left {
+        height: 40px;
+    }
+
+    .nav-right {
+        margin-left: -44px;
+        margin-bottom: -30px;
+    }
+
+    .nav-right ul li {
+        float: none;
+        list-style-type: none;
+        padding: 5px;
+    }
+
+    .header-description {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .team-image {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+    }
+
+    .teamwork {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .quicklist {
+        width: 100%;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+
+}
